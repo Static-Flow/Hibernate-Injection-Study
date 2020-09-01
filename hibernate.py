@@ -3,6 +3,15 @@ import re
 import random
 import os
 
+from lib.core.data import kb
+from lib.core.enums import PRIORITY
+import string
+
+__priority__ = PRIORITY.NORMAL
+
+def dependencies():
+            pass
+
 def tamper(payload, **kwargs):
     
     retVal = payload
